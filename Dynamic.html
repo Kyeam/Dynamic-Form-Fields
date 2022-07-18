@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Dynamic.css">
+        <title>dynamic form fields</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <h1>codewithKyeam</h1>
+        <div class="container">
+            <form action="" method="post">
+                <div id="formfield">
+                    <input type="text" name="text" class="text" size="50" placeholder="name" required>
+                    <input type="text" name="text" class="text" size="50" placeholder="email" required>
+                    <input type="text" name="text" class="text" size="50" placeholder="optional field">
+                </div>
+                <input name="submit" type="submit" value="submit">
+            </form>
+            <div class="controls">
+                <button class="add" onclick="add()"><i class="fa-solid fa-plus"></i>ADD</button>
+                <button class="remove" onclick="remove()"><i class="fa-solid fa-minus"></i>REMOVE</button>
+            </div>
+        </div>
+        <script src="Dynamic.js"></script>
+
+    </body>
+
+</html>
